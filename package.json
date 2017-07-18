@@ -1,0 +1,37 @@
+{
+  "name": "bnb2018",
+  "version": "1.0.0",
+  "description": "Virtual Stock Market Game",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "build": "cd bnb && ng build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkmishra1997/bnb2018.git"
+  },
+  "author": "IEEE DTU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkmishra1997/bnb2018/issues"
+  },
+  "homepage": "https://github.com/nkmishra1997/bnb2018#readme",
+  "dependencies": {
+    "express": "~4.14.0",
+    "mongoose": "~4.6.1",
+    "passport": "~0.3.2",
+    "passport-facebook": "~2.1.1",
+    "connect-flash": "~0.1.1",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "morgan": "~1.7.0",
+    "method-override": "~2.3.6",
+    "passport-facebook-token": "^3.3.0",
+    "express-session": "~1.14.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
